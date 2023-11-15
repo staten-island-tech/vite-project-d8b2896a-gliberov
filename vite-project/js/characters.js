@@ -1,7 +1,7 @@
 const characters = [
     {
         name: "Yoda",
-        img: "placeholder",
+        img: "placeholder" ,
         lightsaberColor: "Green",
         jedi: true,
         sith: false
@@ -49,10 +49,18 @@ const characters = [
         sith: true
     },
     {
-        name: "Yoda",
+        name: "Kylo Ren",
         img: "placeholder",
-        lightsaberColor:"green",
-        jedi: true,
-        sith: false
+        lightsaberColor:"red",
+        jedi: false,
+        sith: true
+    },
+    {
+        name: "Darth Sidious",
+        img: "placeholder",
+        lightsaberColor:"red",
+        jedi: false,
+        sith: true
     }
 ]
+export {characters};
