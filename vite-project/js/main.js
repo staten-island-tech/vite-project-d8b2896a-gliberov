@@ -25,7 +25,3 @@ setupCounter(document.querySelector('#counter'))
 import '../css/style.css'
 import {characters} from "./characters";
 console.log(characters)
-
-const jediPeople = characters.filter((dude) => {return dude.jedi === true})
-
-console.log(jediPeople)

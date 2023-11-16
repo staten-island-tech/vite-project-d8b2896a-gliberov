@@ -1,63 +1,63 @@
 const characters = [
     {
         name: "Yoda",
-        img: "../images/yoda.jpg" ,
+        img: "placeholder" ,
         lightsaberColor: "Green",
         jedi: true,
         sith: false
     },
     {
         name: "Obi-Wan Kenobi",
-        img: "../images/obi.jpg",
+        img: "placeholder",
         lightsaberColor: "Blue",
         jedi: true,
         sith: false
     },
     {
         name: "Mace Windu",
-        img: "../images/windu.jpg",
+        img: "placeholder",
         lightsaberColor:"Purple",
         jedi: true,
         sith: false
     },
     {
         name: "Luke Skywalker",
-        img: "../images/little skywalker.jpg",
+        img: "placeholder",
         lightsaberColor:"Blue",
         jedi: true,
         sith: false
     },
     {
         name: "Darth Maul",
-        img: "../images/maul.jpg",
+        img: "placeholder",
         lightsaberColor:"Red",
         jedi: false,
         sith: true
     },
     {
         name: "Count Dookie",
-        img: "../images/dookie.jpg",
+        img: "placeholder",
         lightsaberColor:"Red",
         jedi: false,
         sith: true
     },
     {
         name: "Anakin Skywalker",
-        img: "../images/big skywalker.jpg",
+        img: "placeholder",
         lightsaberColor: ["blue", "red"],
         jedi: true,
         sith: true
     },
     {
         name: "Kylo Ren",
-        img: "../images/kylo.jpg",
+        img: "placeholder",
         lightsaberColor:"red",
         jedi: false,
         sith: true
     },
     {
         name: "Darth Sidious",
-        img: "../images/sidious.jpg",
+        img: "placeholder",
         lightsaberColor:"red",
         jedi: false,
         sith: true
