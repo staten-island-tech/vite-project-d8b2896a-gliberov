@@ -9,7 +9,9 @@ const jediPeople = characters.filter((dude) => dude.jedi === true)
 DOMSelectors.btn.addEventListener('click',function(e){
   e.preventDefault();
   characters.forEach((character)=>{
-    DOMSelectors.flexblaxs.insertAdjacentHTML('beforeend',`<h2>${character.name}</h2>`)
+    DOMSelectors.flexblaxs.insertAdjacentHTML('beforeend',`
+    <h2>${character.name}</h2>
+    <img src="${character.img}" `)
   });
 })
 
