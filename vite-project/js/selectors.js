@@ -9,6 +9,7 @@ const Buttons = {
     prequel: document.querySelector('#pre'),
     original: document.querySelector('#og'),
     sequel: document.querySelector('#new'),
+    upper: document.getElementById('upper'),
     jedi: document.querySelector('#jedi'),
     sith: document.querySelector('#sith')
 }

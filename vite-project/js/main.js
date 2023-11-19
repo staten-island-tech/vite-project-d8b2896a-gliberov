@@ -36,7 +36,6 @@ characters.forEach((character)=>{
   </div>
   </div>`)
 });
-const upper = characters.map((dude) => {return{name: dude.name.toUpperCase(), img:dude.img, lightsaberColor: dude.lightsaberColor.toUpperCase()}})
 DOMSelectors.btn.addEventListener("click", function () {
   if (document.body.classList.contains("light")) {
     document.body.classList.add("dark");
@@ -69,17 +68,5 @@ printList(Buttons.original,lists.original)
 printList(Buttons.sequel,lists.sequel)
 printList(Buttons.jedi,lists.jediPeople)
 printList(Buttons.sith,lists.sithPeople)
+printList(Buttons.upper,lists.upper)
 
-Buttons.upper.addEventListener("click", function(e){
-  e.preventDefault();
-  DOMSelectors.flexblaxs.innerHTML = ''
-  lists.upper.forEach((dude)=>{ DOMSelectors.flexblaxs.insertAdjacentHTML('beforeend',`<div class = "card">
-  <img class=card-img src="${dude.img}" alt=l>
-  <div class=card-content>
-    <h2>${dude.name}
-    </h2>
-    <p> Their lightsaber color is ${dude.lightsaberColor}
-    </p>
-  </div>
-  </div>`)})
-  });
