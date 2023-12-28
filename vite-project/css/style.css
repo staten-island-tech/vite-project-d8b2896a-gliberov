@@ -34,9 +34,6 @@ body {
   color: var(--primary-text);
 }
 
-.everything {
-  background-color:var(--primary)
-}
 #app {
   max-width: 100%;
   margin: 0 auto;
